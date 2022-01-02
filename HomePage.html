@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merienda&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merienda&family=Pacifico&family=Poiret+One&display=swap"
+        rel="stylesheet">
+    <title>artist page</title>
+    <style>
+        body {
+            margin: 0px;
+            background-image: url(images/loginback.jpeg);
+        }
+
+        #bodypage {
+            height: 1000px;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: black;
+            height: 69px;
+        }
+
+        #navid1 {
+            position: absolute;
+            top: 22px;
+            left: 22px;
+            font-size: 20px;
+            transition-duration: 0.3s;
+        }
+
+        #navid1:hover {
+            transition-duration: 0.3s;
+        }
+
+        #navid2 {
+            position: absolute;
+            left: 270px;
+            top: 21px;
+            font-size: 20px;
+            transition-duration: 0.3s;
+
+        }
+
+        #navid2:hover {
+            transition-duration: 0.3s;
+        }
+
+        #navid2 input {
+            width: 300px;
+            height: 26px;
+            border-radius: 12px;
+            outline: none;
+            border: none;
+            color: white;
+            background-color: black;
+            font-size: 15px;
+        }
+
+        #navid3 {
+            position: absolute;
+            right: 550px;
+            top: 22px;
+            font-size: 20px;
+            transition-duration: 0.3s;
+        }
+
+        #navid3:hover {
+            transition-duration: 0.3s;
+        }
+
+        #navid4 {
+            position: absolute;
+            right: 300px;
+            top: 22px;
+            font-size: 20px;
+            transition-duration: 0.3s;
+        }
+
+        #navid4:hover {
+            transition-duration: 0.3s;
+        }
+
+        #navid5 {
+            position: absolute;
+            right: 45px;
+            top: 22px;
+            font-size: 20px;
+            transition-duration: 0.3s;
+        }
+
+        .headingbar {
+            display: flex;
+            height: 92px;
+            background-image: linear-gradient(black, transparent);
+            box-shadow: 0px 6px 18px 11px black;
+        }
+
+        .artbar {
+            position: relative;
+            height: 40px;
+            left: 22px;
+            top: 20px;
+        }
+
+        .infobox {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            height: 600px;
+            width: 400px;
+            font-size: 45px;
+            left: 440px;
+            text-align: center;
+            top: 34px;
+            background-image: linear-gradient(black, transparent);
+            transition-duration: 0.3s;
+            color: rgb(224, 224, 224);
+        }
+
+        .infobox:hover {
+            transition-duration: 0.3s;
+            box-shadow: 0px 12px 25px 15px black;
+
+        }
+
+        .button {
+            position: relative;
+            top: 80px;
+        }
+
+        .button button {
+            height: 100px;
+            width: 100px;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .button button {
+            background-color: transparent;
+            background-image: linear-gradient(transparent, black);
+            transition-property: all;
+            transition-duration: 0.3s;
+            color: white;
+            border: none;
+        }
+
+        .button button:hover {
+            transition-duration: 0.3s;
+            border-radius: 60px;
+            width: 170px;
+            font-size: 17px;
+            background-image: linear-gradient(transparent, black);
+        }
+
+        .navclass a {
+            color: rgb(114, 123, 136);
+            font-family: 'Poiret One', cursive;
+            transition-duration: 0.3s;
+        }
+
+        .navclass a:hover {
+            transition-duration: 0.3s;
+            color: white;
+            font-family: 'Poiret One', cursive;
+        }
+
+        .artbar a {
+            font-size: 37px;
+            color: white;
+            transition-duration: 0.2s;
+            font-family: cursive;
+        }
+
+        .artbar a:hover {
+            transition-duration: 0.2s;
+            font-size: 38px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bodypage">
+        <div class="navbar">
+            <div class="navclass" id="navid1"> <a href="a"> <strong>HOME</strong> </a> </div>
+            <div class="navclass" id="navid2"> <input type="text" placeholder="SEARCH AND DISCOVER"> </div>
+            <div class="navclass" id="navid3"> <a href="LoginPage.html"> <strong>JOIN</strong> </a> </div>
+            <div class="navclass" id="navid4"> <a href="a"> <strong>LOG IN</strong> </a> </div>
+            <div class="navclass" id="navid5"> <a href="a"> <strong>SUBMIT</strong> </a> </div>
+        </div>
+        <div class="headingbar">
+            <div class="artbar"> <a href=""> <strong>ARTIST'S CLUB</strong> </a></div>
+        </div>
+        <div class="infobox">
+            Welcome to the world of artists. Present your thoughts, your ideas,
+            get connected to different artist, explore, grow and enjoy!
+            <div class="button">
+                <button>
+                    EXPLORE
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

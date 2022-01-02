@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merienda&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Merienda&family=Pacifico&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap" rel="stylesheet">
+    <title>Artist's page</title>
+    <style>
+        body{
+            margin: 0px;
+            background-image: url(images/angrybirds.jpg);
+            position: relative;
+            background-repeat:no-repeat;
+            background-size:100% 100vh;   
+        }
+        #topbox{
+            display: flex;
+            height: 80px;
+            background-color: white;
+            opacity: 70%;
+            box-shadow: 0px -4px 13px 10px rgb(38 39 38);
+        }
+        .top{
+            height: 50px;
+            padding: 4px;            
+        }
+        #topobject2{
+            position: absolute;
+            left: 476px;
+            align-self: center;
+            font-size: 40px;
+            font-family: cursive;
+        }
+        #topobject2 a{
+            color: rgb(38, 39, 38);
+            transition-duration: 0.2s;
+        }
+        #topobject2 a:hover{
+            color: rgb(38, 39, 38);
+            transition-duration: 0.2s;
+            color: black
+        }
+        #topobject1{
+            font-size: 20px;
+            align-self: center;
+            font-family: 'Poiret One', cursive;
+            font-size: 29px;
+            transition-property: all;
+            
+        }
+        #topobject1 a{
+            color: rgb(38, 39, 38);
+            transition-duration: 0.2s;
+        }
+        #topobject1 a:hover{
+            font-size: 31px;
+            transition-duration: 0.2s;
+            color: rgb(0, 0, 0);
+        }
+        #topbox .top a{
+            text-decoration: none;
+        }
+
+        #basebox{
+            height: 400px;
+        }
+        #basebox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .base input{
+            border-radius: 50px;
+            height: 30px;
+            width: 300px;
+            transition-duration: 0.2s;
+            transition-property: all;
+            align-self: center;
+            position: relative;
+            margin: 10px;
+            outline: none;
+            font-family: 'Kirang Haerang', cursive;
+            font-size: 22px;
+        }
+        .base input:hover{
+            width: 330px;
+            transition-duration: 0.2s;
+            font-size: 25px;
+        }
+       .baseoutline{
+           height: 370px;
+           width: 400px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           background-color: white;
+           opacity: 70%;
+           transition-duration: 0.2s;
+       }
+       .baseoutline:hover{
+           transition-duration: 0.2s;
+           box-shadow:2px 2px 23px 13px rgb(38, 39, 38);
+           height: 375px;
+           width: 405px; 
+       }
+    </style>
+</head>
+<body>
+    <div id="topbox">
+        <div class="top" id="topobject1"> <a href="NewArtistPage.html"> <strong>HOME</strong></a> </div>
+        <div class="top" id="topobject2"> <a href=""> <strong>ARTIST'S CLUB</strong></a> </div>
+    </div>
+    <div id="basebox">
+        <div class="baseoutline">
+            <div class="base" id="baseobject1"> <input type="text" name="" id="" placeholder=" NAME"> </div>
+            <div class="base" id="baseobject2"> <input type="number" name="" id="" placeholder=" AGE"> </div>
+            <div class="base" id="baseobject3"> <input type="text" name="" id="" placeholder=" PROFFESSION"> </div>
+            <div class="base" id="baseobject4"> <input type="email" name="" id="" placeholder=" E-MAIL ADDRESS"> </div>
+            <div class="base" id="baseobject5"> <input type="number" name="" id="" placeholder=" PHONE NUMBER"> </div>
+        </div>
+       
+    </div>
+</body>
+</html>
