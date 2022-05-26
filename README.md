@@ -1,2 +1,2 @@
-# Artist_webpage
+# ArtistWebpage
 I have created a website using HTML and CSS
